@@ -7,14 +7,16 @@
 
 ## chapter 2
 
+> maven管理工程，引入servlet3.0框架，实现mvc三层结构，
+DB使用MySQL，连接池为dbcp(apache)
+
 - 搭建 webapp 工程
 - MVC三层结构
   - model
   - controller
   - service
 - 设计URL
-![表2-2 URL表.png](img/t2_2-url.png)
-
+- 将Connection存入ThreadLocal
 
 > IDEA 使用技巧
 - 单元测试JUnit
