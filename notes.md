@@ -13,7 +13,7 @@
   - controller
   - service
 - 设计URL
-![表2-2 URL表.png](表2-2 URL表.png)
+![表2-2 URL表.png](img/t2_2-url.png)
 
 
 > IDEA 使用技巧
