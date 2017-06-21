@@ -1,6 +1,8 @@
 package com.shawnyan.chapter2.service;
 
+import com.shawnyan.chapter2.helper.DatabaseHelper;
 import com.shawnyan.chapter2.model.Customer;
+import com.shawnyan.chapter2.service.CustomerService;
 import org.junit.Assert;
 
 import java.util.List;
@@ -12,15 +14,22 @@ import java.util.List;
  * CustomerService 单元测试
  */
 public class CustomerServiceTest {
+
+    private final CustomerService customerService;
+
+    public CustomerServiceTest() {
+        customerService = null;
+    }
+
     @org.junit.Before
-    public void setUp() throws Exception {
+    public void init() throws Exception {
+        DatabaseHelper.executeSqlFile("sql/demo_test.sql");
     }
 
     @org.junit.Test
-    public List<Customer> getCustomerList() throws Exception {
-        List<Customer> customerList = getCustomerList();
+    public void getCustomerListTest() throws Exception {
+        List<Customer> customerList = customerService.getCustomerList();
         Assert.assertEquals(2,customerList.size());
-        return customerList;
     }
 
     @org.junit.Test

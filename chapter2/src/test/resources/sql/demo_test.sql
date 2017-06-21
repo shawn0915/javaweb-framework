@@ -1,0 +1,2 @@
+INSERT INTO customer (name, contact, telephone, email, remark) VALUES ('shawn', 'shawn', '13912341234', 'shawn@shawnyan.com', '');
+INSERT INTO customer (name, contact, telephone, email, remark) VALUES ('yan', 'shawn', '13912341234', 'yan@shawnyan.com', '');

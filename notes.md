@@ -8,7 +8,7 @@
 ## chapter 2
 
 > maven管理工程，引入servlet3.0框架，实现mvc三层结构，
-DB使用MySQL，连接池为dbcp(apache)
+DB使用MySQL，连接池为dbcp2(apache)
 
 - 搭建 webapp 工程
 - MVC三层结构
