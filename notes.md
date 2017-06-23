@@ -23,3 +23,13 @@ DB使用MySQL，连接池为dbcp2(apache)
   - 在class文件上Ctrl + Shift + T创建测试用例文件
 - 创建Java源文件夹
 按快捷键Ctrl+Alt+Shift+S打开Project Structure，点击Moudles，找到刚才创建的文件夹，右键，选择Sources文件夹变成蓝色，设置完成。或者通过点击下图箭头所指的Marks as Sources来设置。当然，有些朋友可能已经看到旁边的快捷键Alt+S了，三种方法效果是一样的。
+
+> 访问地址
+
+```html
+http://localhost:8080/chapter2/customer
+```
+
+## chapter 3
+
+
