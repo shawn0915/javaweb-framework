@@ -76,3 +76,22 @@ ElementType.METHOD
 > 依赖于 smart-framework 框架
 
 
+## chapter 4
+
+> AOP, Aspect-Oriented Programming, 面向切面编程
+
+- 概念
+  - 相关术语
+  - 增强类型
+- 方案
+  - 写死代码
+  - 静态代理
+  - 动态代理
+    - JDK
+    - CGLib
+  - Spring AOP
+  - Spring AspectJ
+    - 基于注解(@Aspect)
+    - 基于配置(<aop:config>)
+    
+
